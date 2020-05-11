@@ -12,7 +12,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData ({ app }) {
-    const response = await app.$axios.get('https://httpbin.org/ip')
+    const response = await app.$axios.get('https://httpbin.org/get')
     return {
       origin: response.data.origin
     }
