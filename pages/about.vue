@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>data: {{ origin }}</div>
-    <nuxt-link to="/about">
-      abount
+    <nuxt-link to="/">
+      index
     </nuxt-link>
   </div>
 </template>
