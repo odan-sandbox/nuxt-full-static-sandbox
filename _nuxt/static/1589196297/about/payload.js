@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about", {data:[{origin:"13.82.1.1"}],fetch:[]});
