@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>data: {{ origin }}</div>
+    <div>data: {{ url }}</div>
     <nuxt-link to="/">
       index
     </nuxt-link>
@@ -14,7 +14,7 @@ export default Vue.extend({
   async asyncData ({ app }) {
     const response = await app.$axios.get('https://httpbin.org/get')
     return {
-      origin: response.data.origin
+      url: response.data.url
     }
   }
 })
