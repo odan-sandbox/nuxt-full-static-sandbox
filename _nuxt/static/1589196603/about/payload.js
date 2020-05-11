@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about", {data:[{url:"https:\u002F\u002Fhttpbin.org\u002Fget"}],fetch:[]});
